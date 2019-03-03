@@ -51,5 +51,11 @@ namespace timetospeak.Controllers
 
             return PartialView();
         }
+
+        public ActionResult Header()
+        {
+            
+            return PartialView();
+        }
     }
 }
