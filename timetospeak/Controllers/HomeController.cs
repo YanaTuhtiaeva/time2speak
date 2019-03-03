@@ -44,5 +44,12 @@ namespace timetospeak.Controllers
 
             return View();
         }
+
+        public ActionResult Location()
+        {
+            ViewBag.Message = "Тесты";
+
+            return PartialView();
+        }
     }
 }
