@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Dal.Entities;
+using Dal.Interfaces;
 using System.Web.Mvc;
+
 
 namespace timetospeak.Controllers
 {
     public class HomeController : Controller
     {
+        private IAboutRepository<AboutSchool> repo;
+
+        public HomeController(IAboutRepository<AboutSchool> repos)
+        {
+            repo = repos;
+        }
+
+
         public ActionResult Index()
         {
             return View();
@@ -26,18 +33,14 @@ namespace timetospeak.Controllers
 
             return View();
         }
+
         public ActionResult Feedback ()
         {
             ViewBag.Message = "Отзывы";
 
             return View();
         }
-        public ActionResult Price ()
-        {
-            ViewBag.Message = "Цены";
 
-            return View();
-        }
         public ActionResult Test ()
         {
             ViewBag.Message = "Тесты";
