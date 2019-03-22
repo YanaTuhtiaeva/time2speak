@@ -25,10 +25,8 @@ _ReSharper*/
 *.lock
 *.dll
 *.ide
-*.xml
 *.txt
 CustomProfile.pubxml
 [Bb]in/*
-*.pdb
 *.rtf
 *.pubxml
