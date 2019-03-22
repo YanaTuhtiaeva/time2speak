@@ -27,8 +27,6 @@ _ReSharper*/
 *.ide
 *.xml
 *.txt
-
-*.p7s
 CustomProfile.pubxml
 [Bb]in/*
 *.pdb
