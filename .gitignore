@@ -24,9 +24,8 @@ _ReSharper*/
 ##MY
 *.lock
 *.dll
-*.ide*
+*.ide
 *.xml
-*.ps*
 *.txt
 
 *.p7s
