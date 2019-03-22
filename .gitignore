@@ -28,7 +28,6 @@ _ReSharper*/
 *.xml
 *.ps*
 *.txt
-*.exe
 
 *.p7s
 CustomProfile.pubxml
