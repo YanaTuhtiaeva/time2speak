@@ -1,9 +1,34 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
 
-/timetospeak/Properties/PublishProfiles
 
-/timetospeak/bin
-
-/timetospeak/obj
+##MY
+*.lock
+*.dll
+*.ide
+*.txt
+CustomProfile.pubxml
+[Bb]in/*
+*.rtf
+*.pubxml
+*.ide-shm
+*.ide-wal
